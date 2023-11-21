@@ -28,8 +28,8 @@ class mySpotify:
     
     def create_spotify_oauth(self):
         return SpotifyOAuth(
-            client_id="946d958ef6b54bbaa547a36c15743c90",
-            client_secret="1f677513266443a881a4115f0780e20f",
+            client_id=,
+            client_secret=,
             redirect_uri="http://localhost:8000/error",
             scope='user-library-read playlist-read-private playlist-read-collaborative')
 
